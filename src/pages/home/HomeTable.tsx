@@ -7,6 +7,7 @@ const TableWrap = styled.div`
     max-width: 100%;
     overflow-x: auto;
 
+    box-shadow: 2px 1px 26px -18px #000;
     table{
         border: 1px solid #F5F5F5;
         tr{
@@ -83,7 +84,7 @@ const Report:React.FC = () => {
     const [tableInfo, setTableInfo] = React.useState([
         [
             'ОАО «Ками моторс»',
-            'KMOT',
+            'KMOT.P',
             'KG0301222517',
             'Привелигированные акции',
             '0',

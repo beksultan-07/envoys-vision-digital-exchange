@@ -57,6 +57,7 @@ const NewsText = styled.p`
     line-height: 20px;
     letter-spacing: 0.02em;
     color: #3F3F3F;
+    margin: 20px 0 0;
     max-width: 750px;
 `
 

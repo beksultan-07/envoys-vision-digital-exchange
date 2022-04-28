@@ -5,7 +5,7 @@ import { Container } from '../../uikit/uikit'
 import Investing from '../home/Investing';
 
 const DividendC:React.FC = () => {
-  const [infoHeader, setInfoHeader] = React.useState(['Символ','Имя','Дата экс-дивиденда','Дата выплаты','Дата регистрации','Дивиденд','Указанный годовой дивиденд','Дата объявления'])
+  const [infoHeader, setInfoHeader] = React.useState(['Тикер','Наименование','Выплаты по предыдущим дивидендам','Дата выплаты','Размер дивидендов','Указанный годовой дивиденд','Дата объявления'])
 
   const [infoValue, setInfoValue] = React.useState([
       // ['NXPI', 'HighPeak Energy, Inc.', '02/01/2022', '02/01/2022', '02/01/2022', '0.025', '0.1', '01/11/2022'],

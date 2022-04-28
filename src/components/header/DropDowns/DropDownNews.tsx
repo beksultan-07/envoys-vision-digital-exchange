@@ -6,7 +6,7 @@ import { DropDownInside, DropDownLink, HeaderDropDownWrap} from '../hedearStyled
 const DropDownNews:React.FC = () => {
     const [links, setLinks] = React.useState([
         'Новости',
-        'Диведедный календарь ',
+        'Дивидендный календарь ',
         'Календарь заработка',
         'Торговый календарь'
     ])

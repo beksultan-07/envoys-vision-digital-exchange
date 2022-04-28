@@ -14,8 +14,8 @@ const AboutWrap = styled(Flex)`
 const DisclosuresA:React.FC = () => {
   return (
     <AboutWrap direction='column' margin='20px'>
-        <AboutUsLink href={require('./DisclosuresDoc/277 500 000.pdf')} target="_blank">Отчет за 3 квартал открытого общества ОАО "Энвойс Вижион Диджитал Эксчейндж"</AboutUsLink>
-        <AboutUsLink href={require('./DisclosuresDoc/5 277 500 000.pdf')} target="_blank">Отчет за 4 квартал открытого акционерного общества ОАО "Энвойс Вижион Диджитал Эксчейндж"</AboutUsLink>
+        <AboutUsLink href={require('./DisclosuresDoc/277 500 000.pdf')} target="_blank">Отчет за 3 квартал открытого общества ОАО "Eнвойс Вижион Диджитал Эксчейндж"</AboutUsLink>
+        <AboutUsLink href={require('./DisclosuresDoc/5 277 500 000.pdf')} target="_blank">Отчет за 4 квартал открытого акционерного общества ОАО "Eнвойс Вижион Диджитал Эксчейндж"</AboutUsLink>
 
     </AboutWrap>
   )

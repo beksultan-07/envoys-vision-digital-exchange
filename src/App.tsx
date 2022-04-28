@@ -101,9 +101,9 @@ function App() {
     urlReqs.forEach((el, index) => {
       if(el[0] === 'btc'){
         requestGetBtc(el)
-      }else{
+      }else{ 
         requestGetUsd(el)
-      } 
+      }   
   })
   }, [])
   

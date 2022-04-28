@@ -76,7 +76,7 @@ const Report:React.FC = () => {
     const [tableInfo, setTableInfo] = React.useState([
         [
             'ОАО «Ками моторс»',
-            'KMOT',
+            'KMOT.P',
             'KG0301222517',
             'Привелигированные акции',
             '0',

@@ -413,6 +413,15 @@ const Premarket : FC = () => {
                       </ViewMoreAndData>
                   </NewsBox>
                 ))}
+                    <NewsBox>
+                      <NewsText>
+                        Уведомление о Годовом Общим Собрании Акционеров 2022 год
+                      </NewsText>
+                      <ViewMoreAndData>
+                       <span>8-4-2022</span>
+                          <a href={require('../../components/docs/Уведомление о ГОСА2022.pdf')} target='_blank' style={{textDecoration: 'none'}}><ViewMore>Подробнее <img src={Vector} alt=""/></ViewMore></a>
+                      </ViewMoreAndData>
+                  </NewsBox>
               </LastNewsBlock>
            </Wrapper>
           </Flex>

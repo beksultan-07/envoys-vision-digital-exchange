@@ -14,7 +14,9 @@ const Listing:React.FC = () => {
   const [listingPath, setListingPath] = React.useState('Список компаний')
   
   React.useEffect(() => {
-    setListingPath(location.state)
+    if(location.state){
+      setListingPath(location.state)
+    }
   }, [location])
 
 

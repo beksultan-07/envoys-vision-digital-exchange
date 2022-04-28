@@ -22,7 +22,6 @@ margin-top: 5px;
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        text-transform: capitalize; 
     }
 `
 

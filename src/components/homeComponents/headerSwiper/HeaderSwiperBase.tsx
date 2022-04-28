@@ -42,7 +42,7 @@ const HeaderSwiperBase:React.FC<Props> = (props) => {
         }
       }
       let newPathLoc = []
-      newPathLoc.push('Home')
+      newPathLoc.push('Главная страница')
       path.forEach((el, index) => {
         if(el[0] === '/'){
           el = el.slice(1)
@@ -50,30 +50,29 @@ const HeaderSwiperBase:React.FC<Props> = (props) => {
         if(el[el.length-1] === '/'){
           el = el.slice(0, el.length-1)
         }
-
         if(el.toLowerCase() === 'aboutus'){
-            el = 'About us'
+            el = 'О нас'
         }
         if(el.toLowerCase() === 'news&analytics'){
-            el = 'News and Analytics'
+            el = 'Новости и аналитика'
         }
         if(el.toLowerCase() === 'listing'){
-            el = 'listing'
+            el = 'Список компаний'
         }
         if(el.toLowerCase() === 'dividendcalendar'){
-            el = 'Dividend Calendar'
+            el = 'Дивидендный календарь'
         }
         if(el.toLowerCase() === 'earningcalendar'){
-            el = 'Earning Calendar'
+            el = 'Календарь заработка'
         }
         if(el.toLowerCase() === 'report'){
-            el = 'Report'
+            el = 'Отчёт'
         }
         if(el.toLowerCase() === 'newspage'){
-            el = 'News page'
+            el = 'Новостная страница'
         }
         if(el.toLowerCase() === 'disclosures'){
-            el = 'Disclosures'
+            el = 'Раскрытие информации'
         }
 
         newPathLoc.push(el)
@@ -116,6 +115,37 @@ const HeaderSwiperBase:React.FC<Props> = (props) => {
     }
     
   }, [location])
+
+  function clickLink(el: string):string{
+    if(el.toLowerCase() === 'главная страница'){
+        return 'home'
+    }
+    if(el.toLowerCase() === 'О нас'){
+        return 'aboutus'
+    }
+    if(el.toLowerCase() === 'Новости и аналитика'){
+        return 'news&analytics'
+    }
+    if(el.toLowerCase() === 'Список компаний'){
+        return 'listing'
+    }
+    if(el.toLowerCase() === 'Дивидендный календарь'){
+        return 'dividendcalendar'
+    }
+    if(el.toLowerCase() === 'Календарь заработка'){
+        return 'earningcalendar'
+    }
+    if(el.toLowerCase() === 'Отчёт'){
+        return 'report'
+    }
+    if(el.toLowerCase() === 'Новостная страница'){
+        return 'newspage'
+    }
+    if(el.toLowerCase() === 'Раскрытие информации'){
+        return 'disclosures'
+    }
+    return 'Страница не найдена'
+  }
 
   return (
     <HeaderSwiperWrap>
@@ -202,7 +232,7 @@ const HeaderSwiperBase:React.FC<Props> = (props) => {
                     }else{
                         return <Flex  key={index}>
                                     <HeaderSwiperPath>
-                                        <Link to={el}>{el}</Link>
+                                        <Link to={clickLink(el)}>{el}</Link>
                                     </HeaderSwiperPath>
                                     <HeaderSwiperIcon1 src={next} alt="" />
                          </Flex>
