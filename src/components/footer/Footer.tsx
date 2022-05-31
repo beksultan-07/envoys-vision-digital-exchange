@@ -173,7 +173,7 @@ const Footer = () => {
         <FooterBlock>
           <FooterItems>
             <Contacts>
-              <Contact href="tel:+996 (559) 18 00 33">+996 (312) 917 521</Contact>
+              <Contact href="tel:+996 (559) 18 00 33">+996 (312) 884 448</Contact>
               <WorkDays>Пн-Пт 9.00-18.00</WorkDays>
               <Contact href="info@evde.kg" style={{margin: '0'}}>office@envoys.vision</Contact>
               <CompanyName>Envoys Vision Digital Exchange 2022</CompanyName>
