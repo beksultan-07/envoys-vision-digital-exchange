@@ -81,17 +81,17 @@ const TableTitle = styled.h3`
 
 
 const Report:React.FC = () => {
-    const [tableInfo, setTableInfo] = React.useState([
+    const [tableInfo] = React.useState([
         [
-            'ОАО «Ками моторс»',
-            'KMOT.P',
-            'KG0301222517',
-            'Привелигированные акции',
-            '0',
-            '0',
-            '137',
-            '2512',
-            'Нелистинг',
+            // 'ОАО «Ками моторс»',
+            // 'KMOT.P',
+            // 'KG0301222517',
+            // 'Привелигированные акции',
+            // '0',
+            // '0',
+            // '650',
+            // '2512',
+            // 'Нелистинг',
         ]
     ]
     )

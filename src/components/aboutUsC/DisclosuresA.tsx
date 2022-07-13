@@ -16,8 +16,9 @@ const DisclosuresA:React.FC = () => {
     <AboutWrap direction='column' margin='20px'>
         <AboutUsLink href={require('./DisclosuresDoc/277 500 000.pdf')} target="_blank">Отчет за 3 квартал открытого общества ОАО "Eнвойс Вижион Диджитал Эксчейндж"</AboutUsLink>
         <AboutUsLink href={require('./DisclosuresDoc/5 277 500 000.pdf')} target="_blank">Отчет за 4 квартал открытого акционерного общества ОАО "Eнвойс Вижион Диджитал Эксчейндж"</AboutUsLink>
-
+        
         <AboutUsLink href={require('./DisclosuresDoc/Отчет_ОАО_ЕВДЭ_2021_Краткое_содеражение_.pdf')} target="_blank">Отчет ОАО ЕВДЭ 2021</AboutUsLink>
+        <AboutUsLink href={require('./DisclosuresDoc/Отчет ОАО EVDE за 1 квартал 2022 года.pdf')} target="_blank">Отчет ОАО EVDE за 1 квартал 2022 года</AboutUsLink>
 
 
     </AboutWrap>
